@@ -287,10 +287,10 @@ progress {
   font: inherit;
   -webkit-appearance: button; }
 .slider-item .img {
-  background-size: contain;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh; /* Full screen height */
+  height: 100vh;
 }
 
 output {
