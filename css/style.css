@@ -286,6 +286,12 @@ progress {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button; }
+.slider-item .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+}
 
 output {
   display: inline-block; }
